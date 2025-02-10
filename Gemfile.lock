@@ -13,6 +13,8 @@ GIT
   branch: master
   specs:
     httpclient (2.8.3)
+      mutex_m
+      webrick
 
 GIT
   remote: https://github.com/rails/sdoc.git
@@ -198,7 +200,7 @@ GEM
     dartsass-rails (0.5.0)
       railties (>= 6.0.0)
       sass-embedded (~> 1.63)
-    date (3.3.4)
+    date (3.4.1)
     debug (1.9.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
@@ -373,7 +375,7 @@ GEM
     mysql2 (0.5.6)
     net-http-persistent (4.0.2)
       connection_pool (~> 2.2)
-    net-imap (0.4.9)
+    net-imap (0.4.19)
       date
       net-protocol
     net-pop (0.1.2)
@@ -598,7 +600,7 @@ GEM
     thruster (0.1.7)
     thruster (0.1.7-x86_64-darwin)
     thruster (0.1.7-x86_64-linux)
-    timeout (0.4.1)
+    timeout (0.4.3)
     tomlrb (2.0.3)
     trailblazer-option (0.1.2)
     trilogy (2.7.0)
